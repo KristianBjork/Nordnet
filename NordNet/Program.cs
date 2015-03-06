@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.ServiceProcess;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace NordNet
@@ -20,6 +21,9 @@ namespace NordNet
                 new Service1() 
             };
             ServiceBase.Run(ServicesToRun);
+
+            Engine engine = new Engine();
+            Timer t = new Timer(engine.Engine, null, 0, 60000);
         }
     }
 }

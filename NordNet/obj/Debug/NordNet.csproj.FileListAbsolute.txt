@@ -1,1 +1,2 @@
 c:\users\xbjokri\documents\visual studio 2013\Projects\NordNet\NordNet\bin\Debug\NordNet.exe.config
+D:\Development\C#.NET\Projects\Nordnet\NordNet\bin\Debug\NordNet.exe.config
